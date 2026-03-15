@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="b7104ae7-4d23-4e7c-b9a1-f434c407e90f" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2025.3/project-config.xsd">
+  <name>netology</name>
+  <project-extensions>
+    <extension id="PROJECT_EXT_2" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
+        <param name="credentialsStorageType" value="credentialsJSON" />
+        <param name="enabled" value="true" />
+        <param name="ignoreChangesInDependenciesAndVcsSettings" value="false" />
+        <param name="rootId" value="Netology_HttpsGithubComKumpelalex111exampleTeamcityRefsHeadsMaster" />
+        <param name="showChanges" value="false" />
+      </parameters>
+    </extension>
+  </project-extensions>
+</project>
+
