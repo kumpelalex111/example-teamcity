@@ -22,6 +22,15 @@
     <vcs-settings>
       <vcs-entry-ref root-id="Netology_HttpsGithubComKumpelalex111exampleTeamcityRefsHeadsMaster" />
     </vcs-settings>
+    <build-triggers>
+      <build-trigger id="TRIGGER_1" type="vcsTrigger">
+        <parameters>
+          <param name="branchFilter" value="+:*" />
+          <param name="enableQueueOptimization" value="true" />
+          <param name="quietPeriodMode" value="DO_NOT_USE" />
+        </parameters>
+      </build-trigger>
+    </build-triggers>
     <build-extensions>
       <extension id="perfmon" type="perfmon" />
     </build-extensions>
